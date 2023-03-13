@@ -11,7 +11,7 @@ library("RColorBrewer")
 library("MAST")
 
 # Create seurat object
-dir = c('spaceranger/global_embryo/outs','spaceranger/torpedo_embryo/outs','spaceranger/cytoledon_embryo/outs')
+dir = c('spaceranger/S_1_5tian/outs','spaceranger/S_1tian/outs','spaceranger/S0tian/outs','spaceranger/S0tian_2/outs','spaceranger/S1tian/outs','spaceranger/S3tian/outs','spaceranger/S5tian/outs','spaceranger/S5tian_2/outs')
 names(dir) = c('global_embryo', 'torpedo_embryo', 'cytoledon_embryo')
 seu_list <- list()
 for(i in 1:length(dir)){
