@@ -12,7 +12,7 @@ library("MAST")
 library("DoubletFinder")
 
 # Create seurat object
-dir = c('cellranger/global_embryo/outs/filtered_feature_bc_matrix','cellranger/torpedo_embryo/outs/filtered_feature_bc_matrix','cellranger/cytoledon_embryo/outs/filtered_feature_bc_matrix')
+dir = c('cellranger/S_1_5tian/outs/filtered_feature_bc_matrix','cellranger/S_1tian/outs/filtered_feature_bc_matrix','cellranger/S0tian/outs/filtered_feature_bc_matrix','cellranger/S0tian_2/outs/filtered_feature_bc_matrix','cellranger/S1tian/outs/filtered_feature_bc_matrix','cellranger/S3tian/outs/filtered_feature_bc_matrix','cellranger/S5tian/outs/filtered_feature_bc_matrix','cellranger/S5tian_2/outs/filtered_feature_bc_matrix')
 names(dir) = c('global_embryo', 'torpedo_embryo', 'cytoledon_embryo')
 seu_list <- list()
 for(i in 1:length(dir)){
